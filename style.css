@@ -1,0 +1,191 @@
+img.one {
+    height: 10%;
+    width: 10%;
+    border-radius: 120%;
+    margin: 1% 0 1% 1%;
+    padding: 2px;
+    background-color: gold;
+    border:5% crimson;
+    
+}
+
+.row1 {
+    background-color: blanchedalmond;
+    padding: auto;
+}
+
+div.textforhead {
+    position: absolute;
+    top: 20px;
+    right: 550px;
+    font-size: larger;
+    transform: scale(3, 2);
+    
+}
+
+.container {
+    
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+}
+
+#para1 {
+    padding-top: 1%;
+   margin: 0;
+}
+
+#para2 {
+    margin: 0;
+    padding-bottom: 1%;
+}
+
+#container1 {
+   
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+div.card {
+    border: 5px solid gold;
+    height: 300px;
+    width: 400;
+    
+    /*float: left;*/
+    margin: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+
+.card {
+    display: flexbox;
+    flex-wrap: wrap;
+ 
+}
+
+
+#container2 {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px; 
+    margin: 100px;
+    padding: 10px;
+    background-color: azure;
+    margin-top: 0;
+    grid-template-columns: fit-content;
+   
+}
+
+.img {
+    background-color: aquamarine;
+}
+
+#fullpara {
+    display: none;
+}
+
+#fullpara1 {
+    display: none;
+}
+
+#qt1 {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 45%;
+    margin-left: 50%;
+    /*display: none;*/
+}
+
+#qt2 {
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 45%;
+    margin-right: 50%;
+    margin-top: 5%;
+    
+}
+
+#qt3 {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 45%;
+    margin-left: 50%;
+    margin-top: -10%;
+
+    
+}
+
+#qt4 {
+    background-image;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 45%;
+    margin-right: 50%;
+    margin-top: -10%;
+    
+}
+
+#p3 {
+    margin-right: 25%;
+}
+
+#p4 {
+    margin-left: 25%;
+}
+
+#msg {
+    height: 100%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#frm {
+   /* margin-left: 90%;
+    text-align: center;
+    /*display: none;*/
+    
+}
+
+#divfrm {
+    height: 100%;
+    width: 50%;
+    margin-left: 80%;
+    box-shadow: 10px 15px 20px gray;
+    border: 2px solid gold;
+    display: none;
+}
+   
+.close{
+    position: absolute;
+    cursor: pointer;
+    left: 59%;
+    padding: 3px 1px;
+}
+
+@media screen and (width <= 600px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-columns: fit-content;
+        
+    }
+    div.textforehead {
+        font-size: x-small;
+        position: center;
+        top: 5px;
+        right: 100px;
+    }
+   
+}
+    
+/*@media screen and (width <= 600px) {
+    img {
+        display: none;
+    }
+}*/

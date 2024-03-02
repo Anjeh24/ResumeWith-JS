@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width", initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="row1">
+    <div class="textforhead">
+     <h2 class="name1">Anjeh Mbah</h2>
+       <h3>Front end web developer</h3>
+    </div>
+       <div class="img">
+     <img class="one" src="picforresume.jpg">
+       </div>
+       <div class="container">
+       <p id="para1"><b>Web developer specialized in front end.</b></p><br>
+       <p id="para2"><b>Skills: HTML,CSS,JavaScript, REACT, Github</b></p>
+   
+       </div>
+
+       <div class="container" id="container2">
+
+        <div class="card" id="card1">
+            <p><b>About Me</b></p><br>
+            <p id="p1">I am an aspiring developer with an interest in front end<span id="dottyspan">....</span>
+                <span id="fullpara"> When I am not coding, I spend time with my family or reading on something health related.
+                    I love learning more about wellness. 
+                    Besides, as a junior developer, I usally have a gazillion tabs open on my computer because I 'google' for solutions like there is no tomorrow. Hahaha.."
+                </span>
+
+            </p><a id="thelink1"  href="javascript:void(0);" onclick="theSummary();"><b>click for more</b></a><br>
+         <br>
+         <img id="qt1" src="00.jpg">
+            
+        </div>
+        <div class="card" id="card2">
+            <p><b>Education</b></p>
+
+            <p id="p2">
+                Academically, I majored in Business Economics and Business Administration.<span id="dottyspan1">....</span><br>
+                <span id="fullpara1">However, I developed an interest in tech and I have been learning to code and improving my skill level.</span>
+            </p><br>
+            <a id="thelink2" href="javascript:void(0);" onclick="theSummary1();"><b>click for more</b></a><br>
+             <img id="qt2" src="10.jpg">
+                
+        </div>
+        <div class="card" id="card3">
+            
+            <p id="p3"><b>Projects</b></p>
+            <img id="qt3" src="01.jpg">
+            <ul>
+                <li><a href="https://github.com/Anjeh24/Work-Day-Scheduler" target="_blank">Scheduler</a></li>
+                <li><a href="https://github.com/Anjeh24/Employee-Tracker" target="_blank">Employee Tracker</a></li>
+                <li><a href="https://github.com/Anjeh24/QUIZ-APP" target="_blank">Quiz App</a></li>
+            </ul>
+        </div>
+        <div class="card" id="card4">
+            <p id="p4"><b>Contact</b></p>
+            <img id="qt4" src="11.jpg">
+            <p><b>Phone:</b>307-389-3263</p>
+            <p><a href="https://www.linkedin.com/in/anjeh-mbah-12076250/" target="_blank">LinkedIn</a></p><br>
+            <input id="emlp" type="button" value="Message Me"  onclick="dismsg();" ><br>
+           
+        </div>
+
+
+       <div id="divfrm">
+
+        <form id="frm" action="send-email.php" method="post" >
+           <span class="close" onclick="clsfrm();"><b>&#10005;</b></span> <br>
+            Name:<br>
+            <input id="eml" type="email" ><br>
+            Message:
+            <textarea id="msg" rows="4" cols="30"></textarea>
+            <input id="btn" type="submit" value="Send email"><br>
+
+        </form>
+
+        </div>
+
+       
+
+       </div>
+<script src="toggle.js"></script>
+</body>
+</html>
